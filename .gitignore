@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/
+weights/
+runs/
+outputs/*
+!outputs/.gitkeep
+wandb/
+*.engine
+*.onnx

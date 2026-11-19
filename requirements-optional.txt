@@ -1,0 +1,7 @@
+# Optional components; install only when needed.
+transformers>=4.40
+accelerate>=0.28
+onnx>=1.15
+onnxruntime>=1.17
+wandb>=0.16
+carla>=0.9.15

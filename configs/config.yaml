@@ -1,0 +1,14 @@
+detector:
+  weights: yolov8n.pt
+  imgsz: 640
+  confidence: 0.25
+  iou: 0.45
+tracker:
+  tracker_config: bytetrack.yaml
+lane:
+  canny_low: 50
+  canny_high: 150
+  hough_threshold: 40
+depth:
+  model_type: MiDaS_small
+  enabled: true
